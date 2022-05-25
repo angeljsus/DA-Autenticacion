@@ -11,7 +11,8 @@ Realizar peticiones para la autenticación de usuarios registrados en el directo
 ### Autenticar y obtener CURP
 Existe el siguiente método de autenticación para realizar peticiones por medio de `GET` y es necesario realizarla sobre la siguiente ruta, modificando las variables pasadas por el parametro *(user, password, keyApp)*:
 ```shell
-https://intranet.wapp2.inegi.gob.mx/sistemas/informaticos/ws/v2/ldap.asmx/ObtenerUsrCURP?loginUsr=user&passUsr=password&cveAplicacion=keyApp
+https://intranet.wapp2.inegi.gob.mx/sistemas/informaticos/ws/v2/ldap.asmx/ObtenerUsrCURP?
+loginUsr=user&passUsr=password&cveAplicacion=keyApp
 ```
 Con el método de autenticación, es posible recibir una de las siguientes respuestas:
 ##### Autenticado
