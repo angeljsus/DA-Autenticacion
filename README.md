@@ -1,4 +1,4 @@
-# WEB SERVICE DA
+# Autenticación con Directorio Activo
 
 ### Descripción
 Realizar peticiones para la autenticación de usuarios registrados en el directorio activo.
